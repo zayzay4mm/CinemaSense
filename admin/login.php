@@ -27,7 +27,7 @@ include_once('../includes/login_check.inc.php');
   <img class="login-img img-thumbnail d-block mx-auto mb-2" src="../assets/images/logo/logo.jpg"/>
   <form action="" method="POST">
     <input class="form-control mt-2" type="text" name="username" placeholder="Username or email address"/>
-    <input class="form-control mt-2 mb-2" type="text" name="password" placeholder="Password"/>
+    <input class="form-control mt-2 mb-2" type="password" name="password" placeholder="Password"/>
     <input class="btn btn-outline-danger d-block mx-auto" type="submit" name="login" value="Login"/>
   </form>
   </div>
