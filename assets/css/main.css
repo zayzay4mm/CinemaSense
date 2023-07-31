@@ -1,0 +1,285 @@
+@media (max-width: 576px) {
+.author-profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}  
+.post-icon {
+  font-size: 10px;
+}
+.post-title {
+  font-family: 'Noto Serif', serif;
+  font-size: 14px;
+}
+.post-content {
+  font-family: 'Noto Serif', serif;
+  font-size: 12px;
+}
+.post-author {
+  font-family: 'Noto Serif', serif;
+  font-size: 12px;
+}
+.post-date {
+  font-family: 'Noto Serif', serif;
+  font-size: 10px;
+}
+.post-link {
+  font-family: 'Noto Serif', serif;
+  font-size: 10px;
+}
+.footer {
+  padding: 10px;
+}
+.footer-text {
+  font-size: 16px;
+}
+.social-media-icon {
+  color: #fff;
+  font-size: 20px;
+}
+.social-media-icon-margin {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.page-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.post-author-page {
+  font-family: 'Noto Serif', serif;
+  font-size: 16px;
+}
+.page-title {
+  font-family: 'Noto Serif', serif;
+  border-left:4px solid #ff0000;
+  font-size: 19px;
+}
+.page-content {
+  font-family: 'Noto Serif', serif;
+  white-space: pre-wrap;
+  font-size: 17px;
+}
+.home-image-slide {
+  border-radius: 10px;
+  height: 250px;
+}
+}
+@media (min-width: 786px) {
+.author-profile {
+  font-family: 'Noto Serif', serif;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}  
+.post-icon {
+  font-size: 18px;
+}
+.post-title {
+  font-family: 'Noto Serif', serif;
+  font-size: 20px;
+}
+.post-content {
+  font-family: 'Noto Serif', serif;
+  font-size: 18px;
+}
+.post-author {
+  font-family: 'Noto Serif', serif;
+  font-size: 18px;
+}
+.post-date {
+  font-family: 'Noto Serif', serif;
+  font-size: 18px;
+}
+.post-link {
+  font-family: 'Noto Serif', serif;
+  font-size: 18px;
+}
+.footer {
+  padding: 20px;
+}
+.footer-text {
+  font-size: 36px;
+}
+.social-media-icon {
+  color: #fff;
+  font-size: 50px;
+}
+.social-media-icon-margin {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.page-img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+.page-title {
+  border-left:4px solid #ff0000;
+  font-size: 30px;
+}
+.page-content {
+  white-space: pre-wrap;
+  font-size: 25px;
+}
+.home-image-slide {
+  border-radius: 10px;
+  height: 400px;
+}
+.post-author-page {
+  font-family: 'Noto Serif', serif;
+  font-size: 20px;
+}
+}
+.team-profile {
+ height: 200px;
+}
+.carousel-indicators .active {
+    background-color: red !important;
+}
+.post-img {
+  height: 150px;
+}  
+.logo-icon {
+  font-size: 30px;
+  color: #000;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+.profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+.mark-heading {
+  border-left: 4px solid #ff0000;
+}
+.mt-8 {
+  margin-top: 80px;
+}
+.box-shadow {
+  box-shadow: 10px 10px 3px solid #ff0000;
+}
+.post {
+  overflow: hidden;
+  font-family: 'Cormorant Garamond', serif;
+}
+.post-details {
+  border-radius: 5px;
+}
+/* page */
+.image-slide {
+  border-radius: 10px;
+  height: auto;
+}
+.page {
+  height: 100vh;
+}
+.page-bg {
+  background: #f0f0f0;
+  border:1px solid #9c9696;
+  border-radius: 10px;
+}
+.editor {
+  height: 300px;
+}
+.editor-frame {
+  overflow-x: auto;
+  border:1px solid #000;
+}
+.rating {
+  width: 50%;
+}
+.title,.text {
+  font-family: 'Cormorant Garamond', serif;
+}
+.form-frame {
+  border:1px solid #000;
+  border-radius: 15px;
+}
+.album {
+  width: 90%;
+}
+.album-icon {
+  font-size: 25px;
+}
+/* admin home */
+.image {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.table-frame {
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+.action-icon {
+  text-decoration: none;
+}
+/* setting */
+.setting-frame {
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+/* login */
+.login-frame {
+  border: 1px solid #000;
+  border-radius: 15px;
+}
+.login-frame-height {
+  height: 100vh;;
+}
+.login-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+/* search */
+.search-warning-emoji {
+  font-size: 5vh;
+}
+.search-warning-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.5vh;
+}
+/* edit */
+.image-view {
+  width: 200px;
+  height: 200px;
+}
+.image-album {
+  width: 250px;
+  height: 250px;
+}
+/* profile */
+.profile-frame {
+  font-family: 'Cormorant Garamond', serif;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+.profile-text {
+  font-family: 'Cormorant Garamond', serif;
+}
+.profile-password {
+  font-family: 'Cormorant Garamond', serif;
+  color: transparent;
+  text-shadow: 0 0 6px #000;
+}
+.profile-edit {
+  font-size: 20px;
+  color: #000;
+}
+.user-text {
+  margin-right: 35px;
+}
+.image-edit {
+  margin-left: -30px;
+}
