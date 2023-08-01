@@ -10,7 +10,7 @@ if (isset($_SESSION['login']) and $_SESSION['login'] == true) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title> Blog </title>
+  <title> CinemaSense - Admin Register </title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <?php 
