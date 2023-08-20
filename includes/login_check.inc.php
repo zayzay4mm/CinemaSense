@@ -5,7 +5,7 @@ if (isset($_POST["login"])) {
    $sql = "select * from admin where password='$password' and username='$username' or email='$username'";
    $result = $conn->query($sql);
    if ($result->num_rows > 0) {
-      $sql = "select * from admin where username='$username' or email='$username' and password='$password'";
+      $sql = "select * from admin where password='$password' and username='$username' or email='$username'";
       $result = $conn->query($sql);
       if ($result->num_rows > 0) {
          $sql = "update admin set last_login=curdate() where username='$username' and password='$password'";
